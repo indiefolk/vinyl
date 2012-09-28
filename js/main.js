@@ -60,13 +60,13 @@ VI.vinyl = (function () {
 
 	function load() {
 
-		// createRecord();
+		createRecord();
 
-		// setTimeout(function () {
+		setTimeout(function () {
 
-		// 	startPlaying();
+			startPlaying();
 
-		// }, 1000);
+		}, 1000);
 
 	}
 
@@ -208,14 +208,14 @@ VI.vinyl = (function () {
 			player.load();
 			player.play();
 
-			console.log(player);
+			//console.log(player);
 		}
 		else {
 			// Just played 'needle-up' so stop spinning
 
-			console.log(getRotationDegrees($('#footer')));
+			//console.log(getRotationDegrees($('#footer')));
 
-			$('#footer').removeClass('rotate');
+			//$('#footer').removeClass('rotate');
 		}
 	}
 
