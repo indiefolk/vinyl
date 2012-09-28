@@ -1,4 +1,4 @@
-Alternative Portfolio Site
+Vinyl
 ==========================
 
-Uses 3 columns, some CSS3 trickery and is sort of responsive.
+Experimenting with raphaelJS, CSS3 & HTML5 audio to make a record player
